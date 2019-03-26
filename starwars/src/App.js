@@ -3,8 +3,8 @@ import './App.css';
 import Characters from './Characters';
 
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       starwarsChars: []
     };
